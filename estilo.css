@@ -1,0 +1,125 @@
+body{margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+#topo{
+	background: url('imagens/images/5053309.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+	
+}
+.imagem{
+    width: 90%;
+    margin: 0px auto;
+    padding-left: 50px;
+}
+
+.logo img{
+    padding: 20px;
+	max-width: 250px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.conteudo{
+	max-width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    
+}
+.conteudo div{
+	float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+.formulario{
+    margin: 0 auto;
+    width: 80%;
+	background: #000000;
+	border:#f78c00 solid 3px;
+	border-radius: 10px;
+	padding: 15px;
+}
+.formulario h3{
+   
+    color: rgb(0, 0, 0);
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: -1px 0 rgb(175, 2, 255), 0 1px rgb(192, 7, 161), 1px 0 rgb(2, 33, 173), 0 -1px rgb(235, 8, 197)
+}
+.formulario input[type="text"], .formulario input[type="email"], .formulario select{
+	width: 100%;
+    box-sizing: border-box;
+    margin: 20px 0;
+    border-radius: 200px;
+    border: 0;
+    padding: 8px 10px;
+    box-shadow: inset 0px 1px 4px rgb(0 0 0 / 75%);
+}
+.formulario label{
+    display: block
+}
+.formulario input[type="submit"]{
+	width: 80%;
+    margin: 20px auto 10px auto;
+    display: block;
+    background: #ff0000;
+    border: none;
+    padding: 10px 0;
+    border-radius: 200px;
+    color: #fff;
+}
+.entrar{
+    border-color:#fa9806;
+    background:linear-gradient(to bottom, #6202fd 5%, #03b5fc 100%);
+    box-shadow:inset 0px 1px 0px 0px #fff4f3;
+    color:#fff;
+    text-shadow:0px 1px 0px #528009;  
+    padding: 10px 0;
+    border-radius: 200px;
+    width: 20%;
+    margin: 20px auto 10px auto;
+    display: block;
+}
+.aceite{
+    font-size: 14px;
+    color: blanchedalmond;
+}
+footer{
+    height: 80px;
+    padding: 25px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+  }
+
+
+
+
+@media (max-width: 496px){
+	.conteudo div{width:100%;}
+	.vantagens div{width: 100%}
+}
+
+
+
+@keyframes neon{
+    from{
+        filter:drop-shadow(0 0 0 var(--cor-neon));
+    } 
+    to{
+        filter: drop-shadow(0 0 10px var(--cor-neon));
+    }   
+}
+
+.imagem{
+    animation: neon 3s alternate infinite ease-in-out;
+    --cor-neon:#fc9906;
+}
+.logo img{
+    animation: neon 0.5s alternate infinite ease-in-out;
+    --cor-neon:#ffffff;
+}
