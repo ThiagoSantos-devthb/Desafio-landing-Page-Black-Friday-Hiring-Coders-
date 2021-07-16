@@ -2,16 +2,18 @@ body{margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
 #topo{
-	background: url('imagens/images/5053309.jpg');
+	background:url('../assets/images/background.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
 	
 }
 .imagem{
-    width: 90%;
+    max-width: 600px;
+    width: 100%;
     margin: 0px auto;
     padding-left: 50px;
+    
 }
 
 .logo img{
@@ -41,6 +43,7 @@ body{margin: 0;
 	border:#f78c00 solid 3px;
 	border-radius: 10px;
 	padding: 15px;
+    display: block;
 }
 .formulario h3{
    
@@ -80,11 +83,13 @@ body{margin: 0;
     text-shadow:0px 1px 0px #528009;  
     padding: 10px 0;
     border-radius: 200px;
-    width: 20%;
+    max-width: 50%;
+    width: 100%;
     margin: 20px auto 10px auto;
     display: block;
 }
 .aceite{
+    
     font-size: 14px;
     color: blanchedalmond;
 }
