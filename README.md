@@ -12,5 +12,5 @@ Para esse projeto foram usados Javascript, CSS e Html.
 https://xenodochial-hopper-24bf68.netlify.app/
 
 <p align="center">
-<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+<img src="https://github.com/ThiagoSantos-devthb/Desafio-landing-Page-Black-Friday-Hiring-Coders-/blob/main/landingpage%20blackfriday.png"/>
 </p>
