@@ -10,3 +10,7 @@ Para esse projeto foram usados Javascript, CSS e Html.
 ## Funcionamento
  Veja o funcionamento direto no link:
 https://xenodochial-hopper-24bf68.netlify.app/
+
+<p align="center">
+<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+</p>
